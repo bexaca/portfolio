@@ -1,0 +1,124 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+@font-face{
+    font-family:"Source Sans Pro";
+    src:url("SourceSansPro-Regular.otf");
+    font-family:"Source Sans ProBold";
+    src:url("SourceSansPro-Bold.otf");
+}
+
+#omot{
+    width: 1349px;
+    background-color: #e6e6e6;
+}
+/*Header */
+#header{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: #e6e6e6;
+    top:0px;
+    z-index: 2;
+}
+.logo{
+    float: left;
+    margin:18px 0px 0px 167px;
+}
+.navigation{
+    margin-top:38px;
+}
+.lista1{
+    list-style: none;
+    width: 575px;
+    margin-left: 310px ;
+    text-decoration: none;
+}
+
+ul.lista1 li{
+    float:left;
+    padding-right:25px;
+    
+}
+.forma{
+    float: right;
+    margin:0px auto;
+    margin-right: 135px;
+}
+.navigation ul li a{
+    position: relative;
+    text-decoration: none;
+    color: #0f2229;
+    font-size: 12pt;
+    font-family: Source Sans Pro;
+}
+.navigation ul li a:hover{
+    color: #0f2229;
+}
+.navigation ul li a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.navigation ul li a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+#btnSearch:hover,
+#btnSearch:active{
+    color: #0e83cd;
+    background: #fff;
+    transition-duration: 0.5s;
+}
+#tbSearch{
+    border-radius: 8px;
+    padding-left: 5px;
+}
+#btnSearch{
+    color: #0f2229;
+    background: #c7c7c7;
+    border: 1px solid #fff;
+    width: 150px;
+    height: 21px;  
+    border-radius: 8px;
+    transition-duration: 0.5s;
+}
+
+/*Sadrzaj*/
+
+
+/*Footer*/
+#footer{
+    height: 250px;
+    width: 100%;
+}
+
+#footer p{
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+#footer p a{
+    color: darkolivegreen;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+#footer p a:hover{
+    color: darkblue;
+    transition-duration: 0.5s;
+}
+
+
+
+
