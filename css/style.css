@@ -1035,12 +1035,15 @@ footer span{
         pointer-events: none;
     }
     figure figcaption,
-    figure figcaption>a {
+    figure figcaption a.take__a__look {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
+    }
+    figure{
+        cursor: default;
     }
     figcaption a{
         transition: 0.5s;
