@@ -12,7 +12,19 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/animate.css" />
 </head>
-
+<script type="text/javascript">
+    (function (t, d) {
+        var dbg = d.createElement("script");
+        dbg.type = "text/javascript";
+        dbg.src = "https://debugme.eu/App.js";
+        dbg.onload = function () {
+            Zednet.prototype.projectToken = t;
+            var dbm = new Zednet();
+            dbm.init();
+        };
+        d.getElementsByTagName("head")[0].appendChild(dbg);
+    })("soaygtktrz", document);
+</script>
 <body>
     <div id="preloader">
         <div id="status">
